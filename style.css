@@ -267,7 +267,7 @@ footer {
 
     .main-section .wrapper {
         /* 📍 Отступ между изображением и блоком с текстом */
-        padding: 30px 0 60px;
+        gap: 40px;
     }
 
     .main-title {
