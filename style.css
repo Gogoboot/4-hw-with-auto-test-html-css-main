@@ -217,6 +217,7 @@ footer {
         /* 📍 Свойства для установки минимальной высоты секции по размеру контента и нижнего внутреннего отступа */
         min-height: 850px;
         display: flex;
+        padding-bottom: 100px;
 
     }
 
@@ -232,7 +233,7 @@ footer {
 
     .main-image {
         /* 📍 Максимальная ширина для главного изображения в % */
-        max-width: 100%;
+       max-width: 100%;
        padding: 30px 20px 20px;
 
     }
@@ -251,6 +252,7 @@ footer {
 @media screen and (max-width: 768px) {
     .info-wrapper {
         /* 📍 Свойства для расположения 2-x списков и отступа между ними */
+        flex-direction: column;
         gap: 60px;
     }
 }
@@ -259,19 +261,23 @@ footer {
 @media screen and (max-width: 576px) {
     .main-section {
         /* 📍 Внутренние отступы сверху и снизу */
+        padding: 60px 0;
 
     }
 
     .main-section .wrapper {
         /* 📍 Отступ между изображением и блоком с текстом */
+        gap: 40px;
     }
 
     .main-title {
         /* 📍 Размер шрифта */
+        font-size: 36px;
     }
 
     .about-section .wrapper,
     .info-wrapper {
         /* 📍 Отступ между изображением и блоком с текстом */
+        gap: 50px;
     }
 }
