@@ -147,6 +147,7 @@ form {
     /* 📍 Свойства для расположения элементов (инпута и кнопки) и отступа между ними */
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 .text-field {
@@ -243,13 +244,14 @@ footer {
 
     .about-section {
     /* 📍 Внутренний отступ сверху и снизу */
-        padding: 60px 20px;
+        padding: 60px 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .info-wrapper {
         /* 📍 Свойства для расположения 2-x списков и отступа между ними */
+        gap: 60px;
     }
 }
 
